@@ -13,4 +13,3 @@ var playerSchema = new Schema({
 	"interestedTeams": [String]
 });
 
-module.experts = mongoose.model('Player', playerSchema);
