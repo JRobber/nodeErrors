@@ -3,7 +3,7 @@
 //                //
 
 var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+
 
 var playerSchema = new Schema({
 	"name": {type: String},
@@ -13,3 +13,4 @@ var playerSchema = new Schema({
 	"interestedTeams": [String]
 });
 
+module.exper = mongoose.model('Player', playerSchema);
