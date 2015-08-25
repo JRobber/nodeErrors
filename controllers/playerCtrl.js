@@ -8,7 +8,7 @@ module.exports = {
 
 //-- Create New Player
 
-    newPlayer: function(req, res){
+    newPlayer: function(){
       Player.create({
         name: req.body.name,
         collage: req.body.collage,
