@@ -13,4 +13,4 @@ var playerSchema = new Schema({
 	"interestedTeams": [String]
 });
 
-module.exports = mongoose.model('Player', playerSchema);
+module.experts = mongoose.model('Player', playerSchema);
